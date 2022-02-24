@@ -8,16 +8,16 @@ public class TiempoActual {
 		int min = tiempo.get(Calendar.MINUTE);
 		int dia = tiempo.get(Calendar.DAY_OF_MONTH);
 		int mes = tiempo.get(Calendar.MONTH) + 1;
-		int año = tiempo.get(Calendar.YEAR);
+		int anno = tiempo.get(Calendar.YEAR);
 	
 		if (hora < 12) {
-			System.out.println("Buenos días");
+			System.out.println("Buenos dias");
 		}else if (hora < 17) {
 			System.out.println("Buenas tarde");
 		}else {
 			System.out.println("Buenas noches");
 		}
 		System.out.println("Son las " + hora + ":" + min);
-		System.out.println("Hoy estamos " + mes + "/" + dia + "/" + año);
+		System.out.println("Hoy estamos " + mes + "/" + dia + "/" + anno);
 	}
 }

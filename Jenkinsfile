@@ -13,6 +13,7 @@ pipeline{
 			steps{
 				echo "Testing the Project.........."
 				sh 'java -version'
+				sh 'javac TiempoActual.java'
 			}
 		}
 		stage('Deploy') 

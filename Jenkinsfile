@@ -12,6 +12,7 @@ pipeline{
 		{
 			steps{
 				echo "Testing the Project.........."
+				sh 'java -version'
 			}
 		}
 		stage('Deploy') 

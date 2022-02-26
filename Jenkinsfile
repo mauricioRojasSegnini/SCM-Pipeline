@@ -7,6 +7,7 @@ pipeline{
 			steps{
 				echo "Building the Project.........."
 				sh 'java -version'
+				sh 'git pull'
 			}
 		}
 		stage('Compile') 

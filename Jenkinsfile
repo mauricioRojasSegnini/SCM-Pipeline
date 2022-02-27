@@ -7,7 +7,7 @@ pipeline{
 			steps{
 				echo "Building the Project.........."
 				sh 'java -version'
-				sh 'git pull main'
+				git branch: 'main', url: 'https://github.com/mauricioRojasSegnini/SCM-Pipeline.git'
 			}
 		}
 		stage('Compile') 

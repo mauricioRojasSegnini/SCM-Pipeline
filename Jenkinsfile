@@ -30,17 +30,5 @@ pipeline{
 				echo "Testing the Project.........."
 			}
 		}
-		stage('Deploy') 
-		{
-			steps{
-				echo "Deploying the Project.........."
-			}
-		}
-		stage('Release') 
-		{
-			steps{
-				echo "Releasing the Project.........."
-			}
-		}
 	}
 }
